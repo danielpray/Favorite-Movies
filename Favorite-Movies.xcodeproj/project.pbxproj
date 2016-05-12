@@ -56,15 +56,39 @@
 		39463B2B1CE3EB4D0085C657 /* Favorite-Movies */ = {
 			isa = PBXGroup;
 			children = (
+				398A0AD31CE428EC00417F97 /* Controller */,
+				398A0AD21CE428D700417F97 /* View */,
+				398A0AD11CE428A800417F97 /* Model */,
 				39463B2C1CE3EB4D0085C657 /* AppDelegate.swift */,
-				39463B2E1CE3EB4D0085C657 /* ViewController.swift */,
-				39463B301CE3EB4D0085C657 /* Main.storyboard */,
 				39463B361CE3EB4D0085C657 /* Assets.xcassets */,
-				39463B381CE3EB4D0085C657 /* LaunchScreen.storyboard */,
 				39463B3B1CE3EB4D0085C657 /* Info.plist */,
 				39463B331CE3EB4D0085C657 /* Favorite_Movies.xcdatamodeld */,
 			);
 			path = "Favorite-Movies";
+			sourceTree = "<group>";
+		};
+		398A0AD11CE428A800417F97 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		398A0AD21CE428D700417F97 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				39463B301CE3EB4D0085C657 /* Main.storyboard */,
+				39463B381CE3EB4D0085C657 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		398A0AD31CE428EC00417F97 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				39463B2E1CE3EB4D0085C657 /* ViewController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,6 +279,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.DanielRay.Favorite-Movies";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -266,6 +291,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.DanielRay.Favorite-Movies";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -288,6 +314,7 @@
 				39463B401CE3EB4D0085C657 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
