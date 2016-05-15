@@ -13,6 +13,11 @@
 		39463B351CE3EB4D0085C657 /* Favorite_Movies.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 39463B331CE3EB4D0085C657 /* Favorite_Movies.xcdatamodeld */; };
 		39463B371CE3EB4D0085C657 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39463B361CE3EB4D0085C657 /* Assets.xcassets */; };
 		39463B3A1CE3EB4D0085C657 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39463B381CE3EB4D0085C657 /* LaunchScreen.storyboard */; };
+		39536C8B1CE6D23400C5D19B /* DisplayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39536C8A1CE6D23400C5D19B /* DisplayVC.swift */; };
+		398A0AD61CE42C4300417F97 /* Movie+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398A0AD41CE42C4300417F97 /* Movie+CoreDataProperties.swift */; };
+		398A0AD71CE42C4300417F97 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398A0AD51CE42C4300417F97 /* Movie.swift */; };
+		398A0AD91CE42D1800417F97 /* AddMovieVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398A0AD81CE42D1800417F97 /* AddMovieVC.swift */; };
+		398A0ADB1CE42DC300417F97 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398A0ADA1CE42DC300417F97 /* MovieCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		39463B361CE3EB4D0085C657 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39463B391CE3EB4D0085C657 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		39463B3B1CE3EB4D0085C657 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39536C8A1CE6D23400C5D19B /* DisplayVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayVC.swift; sourceTree = "<group>"; };
+		398A0AD41CE42C4300417F97 /* Movie+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Movie+CoreDataProperties.swift"; path = "../Movie+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		398A0AD51CE42C4300417F97 /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Movie.swift; path = ../Movie.swift; sourceTree = "<group>"; };
+		398A0AD81CE42D1800417F97 /* AddMovieVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddMovieVC.swift; path = ../AddMovieVC.swift; sourceTree = "<group>"; };
+		398A0ADA1CE42DC300417F97 /* MovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +80,9 @@
 		398A0AD11CE428A800417F97 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				398A0AD41CE42C4300417F97 /* Movie+CoreDataProperties.swift */,
+				398A0AD51CE42C4300417F97 /* Movie.swift */,
+				398A0ADA1CE42DC300417F97 /* MovieCell.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -87,6 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				39463B2E1CE3EB4D0085C657 /* ViewController.swift */,
+				398A0AD81CE42D1800417F97 /* AddMovieVC.swift */,
+				39536C8A1CE6D23400C5D19B /* DisplayVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -162,9 +177,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				398A0ADB1CE42DC300417F97 /* MovieCell.swift in Sources */,
+				39536C8B1CE6D23400C5D19B /* DisplayVC.swift in Sources */,
+				398A0AD61CE42C4300417F97 /* Movie+CoreDataProperties.swift in Sources */,
 				39463B351CE3EB4D0085C657 /* Favorite_Movies.xcdatamodeld in Sources */,
 				39463B2F1CE3EB4D0085C657 /* ViewController.swift in Sources */,
 				39463B2D1CE3EB4D0085C657 /* AppDelegate.swift in Sources */,
+				398A0AD71CE42C4300417F97 /* Movie.swift in Sources */,
+				398A0AD91CE42D1800417F97 /* AddMovieVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
